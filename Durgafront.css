@@ -1,0 +1,106 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(imgDurga/blackprj.jpg);
+	background-size: 100% 100vh;
+	background-position: cover;
+}
+header{
+	width: 100%;
+	height: 100px;
+	opacity: 75%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.left{
+	width: 34%;
+	height: 100%;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+
+}
+nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+nav ul{
+	display: flex;
+	list-style: none;
+}
+nav ul li{
+	padding-left: 30px;
+}
+nav ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color:  #FFDF00;
+}
+.active{
+	background-color: black;
+	padding: 10px 15px;
+}
+nav ul li a:hover:not(.active){
+	color: #FFF3B9;
+}
+.center{
+	width: 30%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.right{
+	width: 45%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.btn{
+	background-color: red;
+	text-decoration: none;
+	padding: 10px 20px;
+	margin-left: 30px;
+	color: white;
+}
+section{
+	width: 100%;
+	height: 85vh;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+section h1{
+	position: absolute;
+	font-size: 100px;
+	font-family: Verdana,Geneva,Tahoma,sans-serif;
+	color: white;
+}
+section p{
+	font-size: 30px;
+	margin-top: 170px;
+	color: white;
+}
+.view{
+	position: absolute;
+	top: 70%;
+
+}
+.view a{
+	text-decoration: none;
+	background-color: red;
+	color: white;
+	padding: 15px 30px;
+	border-radius: 5px;
+
+}
+.view a:hover{
+	background-color: color:   rgb(255,215,0);;
+	transition: 0.5s ease-in;
+}
